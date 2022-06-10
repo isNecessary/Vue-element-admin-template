@@ -1,0 +1,38 @@
+@import '@/styles/element-variables.scss';
+.shadow{
+  box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+}
+aside{
+  padding: 0;
+}
+.side-menu{
+  min-height: 100vh;
+  overflow-y: auto;
+  z-index: 10;
+  .logo{
+    height: 60px;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+    // -webkit-transition: all .3s;
+    // transition: all .3s;
+    overflow: hidden;
+    // background-color: $menu-dark-bg;
+    h1{
+      font-size: 20px;
+      margin: 0 0 0 12px;
+    }
+    .logo-pic{
+      display: inline-block;
+      width: 42px!important;
+      height: 42px!important;
+      vertical-align: middle;
+      color: $--color-primary;
+      margin: 0;
+    }
+  }
+}
+.menu{
+  padding: 16px 0;
+  border-right: 0;
+}

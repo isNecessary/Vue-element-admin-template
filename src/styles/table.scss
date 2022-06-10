@@ -1,0 +1,70 @@
+.ScreenAdapter{
+  .el-table {
+    font-size: 16px;
+  }
+  .el-pagination {
+    font-size: 16px !important;
+    span, button, li, input{
+      font-size: 16px !important;
+    }
+
+  }
+}
+.search-input-suffix {
+  float: left;
+  width: 60%;
+  font-size: 13px;
+  color: #333;
+  .demo-ruleForm{
+
+  }
+  .el-input--mini{
+    font-size: 13px;
+  }
+  .el-form-item__label{
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+  }
+  .el-input{
+    width: 180px;
+
+  }
+  & .el-form-item{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 20px;
+    & {
+      .el-form-item__label{font-weight: normal;}
+      .el-form-item__content{
+        margin-left: 0!important;
+        & .el-form-item{margin-right: 0;}
+      }
+    }
+    &.form-button{
+      .el-form-item__content{margin-left: 0!important;}
+    }
+  }
+}
+.projects-box {
+  max-width: 180px;
+  .el-select-dropdown__list {
+    overflow: visible;
+    display: block;
+  }
+  .el-select-dropdown__item{
+    display: inline-block;
+  }
+  .el-select-dropdown__item span {
+    min-width: 180px;
+    display: inline-block;
+  }
+}
+
+.filter-container{
+  float: right;
+}
+
+.back{
+  margin-bottom: 10px;
+}
